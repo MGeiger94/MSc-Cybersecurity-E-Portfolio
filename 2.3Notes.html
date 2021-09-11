@@ -156,16 +156,19 @@
 	
 	
 	
-<h2>Seminar session 2</h2>
-	</header>
+<section id="three">
+									<div class="inner">
+										<header class="major">
+											<h2>Seminar session 2</h2>
+										</header>
 
 	<h3>Threat modeling and cyber security design approaches using the example of Scotland's Health System.</h3>
 	
 	<h4>Background to the problem:</h4>
 	<ul>
-		<li>Scotland’s Health System (on the Web)<li>
-		<li>NHS Scotland Health includes 14 Boards<li>
-		<li>One of it is called "Fife"<li>
+		<li>Scotland’s Health System (on the Web)</li>
+		<li>NHS Scotland Health includes 14 Boards</li>
+		<li>One of it is called "Fife"</li>
 		<li>Offers many differnt health services (e.g. Neurology, Psychology, Radiology,...)</li>
 		</ul>
 			
@@ -174,48 +177,63 @@
 	
 	<b>PACS System: Picture Archiving Communications System</b>
 	<ul>
-		<li> Access to Radiology service is through a referral system. <li>
-		<li> Radiology examinations are stored and reported digitally. <li>
-		<li> Imaging is accessed by a Consultant Radiologist and compiles a report.<li>
-		<li> Report is sent to the health professional that made the request.<li>
-		<li> PACS is a national system – accessible across all health boards. <li>
-		<li> Accessible by both Radiology staff and clinicians. <li>
-		<li> You must be a doctor or be highly specialized in your clinical field to be able to read x-rays and act upon them.<li>
+		<li> Access to Radiology service is through a referral system. </li>
+		<li> Radiology examinations are stored and reported digitally. </li>
+		<li> Imaging is accessed by a Consultant Radiologist and compiles a report.</li>
+		<li> Report is sent to the health professional that made the request.</li>
+		<li> PACS is a national system – accessible across all health boards. </li>
+		<li> Accessible by both Radiology staff and clinicians. </li>
+		<li> You must be a doctor or be highly specialized in your clinical field to be able to read x-rays and act upon them.</li>
 		<li> Integrates with Image Exchange Portal (IEP)  for safe and secure transfer of imaging to specialized healthcare institutions around the UK.</li>
 	</ul>
 	
 	<p> A digital System must achieve the design obectives: Confidentiality, Integrity, Availability (CIA triangle)
 	
-	<h4>Cyber security design principles by the UK National Cyber Security Centre (2019) </h4>
+	<h4>Cyber security design principles by the UK National Cyber Security Centre (2019): </h4>
 	<ul>
-		<li>determine all system components (Hardware, Software, Databases, Networks, People & procedures <li>
-		<li>Make compromise difficult<li>
+		<li>determine all system components (Hardware, Software, Databases, Networks, People & procedures </li>
+		<li>Make compromise difficult</li>
 		<li>Make disruption difficult <li>
-		<li>Make compromise detection easier <li>
+		<li>Make compromise detection easier </li>
 		<li>Reduce the impact of compromise </li>
 		<ul>
+			<p> </p>
 			
 			<h4>Approaches:</h4>
 			
 			<b>Network security</b>
-			<p>focuses on networked-resources. Objective is to stop threats from spreading over networks. It is achieved by define and implement access level policies and different types and levels of firewalls. Such as:</p>
+			<p>focuses on networked-resources. Objective is to stop threats from spreading over networks. It is achieved by define and implement access level policies and different types and levels of firewalls such as:</p>
 			<ul>
-				<li>Packet-filtering <li>
-					<li>Circuit-level gateways <li>
-						<li>Stateful inspection <li>
-				<li>Software <li>
-					<li>Hardware <li>
+				<li>Packet-filtering </li>
+					<li>Circuit-level gateways </li>
+						<li>Stateful inspection </li>
+				<li>Software </li>
+					<li>Hardware </li>
 				<li> Cloud </li>
 			</ul>
 		<p>	
+			<p>A security access level policies is important to guarantee only necessary access to the different users like Domain, Subdomain, user groups and others.</p>
+			
+			
 			<b>Software security requirement</b>
 			
-			<!--
+			<p>General considerations should be:
+			
 			<ul>
-				<li>Identifies: What needs protection from who and for what period.<li>
-				<li>Secifies: What the system must do and not do and why the system should behave as specified.<li>
-				<li>Avoid: How pr
-			-->						
+				<li>Identify: What needs protection from who and for what period.</li>
+				<li>Secify: What the system must do and not do and why the system should behave as specified.</li>
+				<li>Analyse: How problems must be solve</li>
+				
+		<!--		<b>Threat identification<b>
+		-->			<p>
+								
+ <b>Some threat modeling techiques:<b>
+	 <ul>
+		 <li>Abuse case </li>
+		 <li>STRIDE</li>
+	 <li>Attack trees</li>
+	 <li>Protection trees</li>
+			<li>A combination of techniques</li>
 
 									
 									
