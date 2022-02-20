@@ -1,3 +1,13 @@
+Welcome to my website for my Master's degree in Cyber Security at the University of Essex, England.
+This setup of the website serves as a reflected representation of my personal progress throughout my studies and can serve as an inspiration for others.
+
+
+Note on website progress:
+The website is still under construction. The "About Me" page is currently missing, so the current numbering may raise questions.
+Furthermore, the "Contact" and "Footer" areas are still being worked on and do not represent a final version at this point in time.
+
+
+
 Forty by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
