@@ -1766,7 +1766,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: justify;
+		text-align: center;
 	}
 
 	header.major {
